@@ -86,7 +86,7 @@ void convertRangeToPrefixes() {
 int main(int argc, char const* argv[]) {
 	if (argc != 3) {
 		cout << "Expected usage: " << argv[0]
-			<< "<Lower port> <Higher port>"
+			<< " <Lower port> <Higher port>"
 			<<endl;
 	}
 	else {
